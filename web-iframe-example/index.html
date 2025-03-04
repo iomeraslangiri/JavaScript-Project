@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Example Iframe</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <i class="material-icons">ei</i>
+            <h1>Example</h1>
+        </div>
+        <div class="menu">
+            <button id="menuButton">
+                <i class="material-icons">menu</i>
+            </button>
+            <ul id="navLinks" class="hidden">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="card">
+            <h2>The REAL Cost Of AWS</h2>
+            <h3>(And How To Avoid It)</h3>
+
+            <div class="video-box">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hPC6keUUiTA"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="buttons">
+                <button class="save-button">
+                    <i class="material-icons">bookmark</i>
+                    Save
+                </button>
+                <button class="share-button">
+                    <i class="material-icons">share</i>
+                    Share
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <i class="material-icons">info</i>
+                <h3>Why This Matters</h3>
+            </div>
+            <p>AWS costs can get expensive if you don't know what you're doing!</p>
+            <div class="info-boxes">
+                <div class="info-box">
+                    <i class="material-icons">trending_down</i>
+                    <p>Lower your bill</p>
+                </div>
+                <div class="info-box">
+                    <i class="material-icons">build</i>
+                    <p>Use better tools</p>
+                </div>
+                <div class="info-box">
+                    <i class="material-icons">auto_awesome</i>
+                    <p>Best practices</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 Cloud Academy</p>
+        <div class="social">
+            <a href="#"><i class="material-icons">flutter_dash</i></a>
+            <a href="#"><i class="material-icons">link</i></a>
+        </div>
+    </div>
+
+    <div id="lightbulb-button">
+        <i class="material-icons">lightbulb</i>
+    </div>
+
+    <div id="notification" class="hidden">
+        <p>Tip: Use AWS Cost Explorer!</p>
+        <button id="closeNotification">
+            <i class="material-icons">close</i>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
